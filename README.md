@@ -96,3 +96,19 @@ AdaptoSense/
 ├── FinalNN_BTC.ipynb                 # Python training notebook
 ├── sensor_csv_files/                 # (CSV files used for training)
 └── README.md                         # Project description and documentation
+
+## 📦 Data
+
+The project uses real-time sensor data collected from Arduino MKR Wi-Fi 1010 and OPLA Weather Station. All relevant data files are included in the `/data` directory.
+
+### Included CSV Files
+- `C3PO-humidity1.csv` – Indoor humidity sensor 1  
+- `C3PO-carbon.csv` – Indoor CO₂ sensor  
+- `C3PO-photoresistor.csv` – Light intensity (lux)  
+- `C3PO-temperature1.csv` – Indoor temperature sensor 1  
+- `C3PO-temperature_2.csv` – Indoor temperature sensor 2  
+- `YodaThings-yodahumidity.csv` – External humidity (Yoda sensor)  
+- `YodaThings-Yodatemperature.csv` – External temperature  
+- `YodaThings-yodalight.csv` – External light conditions  
+
+> 📁 These files are automatically loaded and preprocessed in the model for training and evaluation.

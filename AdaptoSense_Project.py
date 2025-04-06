@@ -1,5 +1,5 @@
 """
-AdaptoSense – ANN-Based Sensor Fault Detection and Data Prediction
+AdaptoSense ANN-Based Sensor Fault Detection and Data Prediction
 Author: Munesh Meghwar
 Description: A neural network model for predicting missing sensor values using IoT data (Arduino + Python)
 """
