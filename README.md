@@ -3,17 +3,20 @@
 **AdaptoSense** is an AI-driven system designed for **real-time sensor fault detection** and **data prediction** in smart building environments. Developed using **Python**, **Arduino Cloud**, and **deep learning**, the system ensures data integrity and continuous monitoring by predicting missing or faulty sensor values using an **Artificial Neural Network (ANN)**.
 
 ---
+## 🧠 Project Overview
 
-## 🧠 Project Summary
+**AdaptoSense** is a smart environmental monitoring system that integrates an **Arduino-based IoT sensor network** with a **custom Artificial Neural Network (ANN)**. The system continuously tracks and predicts key indoor environmental parameters:
 
-This project integrates an **Arduino-based IoT sensor network** with a **custom-built ANN model** to monitor and predict environmental parameters such as:
+- 🌡️ **Temperature**
+- 💧 **Humidity**
+- 🫁 **CO₂ Concentration**
+- 💡 **Ambient Light Intensity**
 
-- **Temperature**
-- **Humidity**
-- **CO₂ concentration**
-- **Ambient light intensity**
+In the event of a sensor malfunction or data transmission failure, the ANN accurately predicts the missing values. This ensures continuous, reliable environmental monitoring without system downtime.
 
-If any sensor fails or transmits zero values, the ANN estimates the missing data with high accuracy, ensuring uninterrupted environmental monitoring.
+### 📈 Conceptual Workflow
+
+![AdaptoSense Project](AdaptoSenseModel.png)
 
 ---
 
