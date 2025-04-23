@@ -100,8 +100,7 @@ AdaptoSense/
 ├── sensor_csv_files/                 # (CSV files used for training)
 └── README.md                         # Project description and documentation
 
-'''
-
+```
 
 ## 📦 Data
 
